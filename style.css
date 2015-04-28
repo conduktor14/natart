@@ -1,0 +1,1094 @@
+/* CSS Document */
+
+html, body {
+	background-color:white;
+	margin: 0%;
+	height: 100%;
+}
+
+
+.conteiner{
+	min-height: 100%;
+	position: relative;
+}	
+
+* {margin: 0; padding: 0;}
+
+.footer{
+	float:left;
+	position: relative;
+	text-align: center;
+	background-color: black;
+	color: white;
+	height: 34px;
+	width: 100%;
+	margin-top: 12px;
+	padding-top: 6px;
+	overflow: hidden;
+}
+.link{
+	margin-top: 60px;
+}
+
+@font-face {
+	font-family:Qwigley; 
+	src:url(Qwigley.ttf);
+}
+@font-face {
+	font-family:Korinna; 
+	src:url(font/Korinna.ttf);
+}
+
+
+@font-face {
+	font-family:'Vladimir Script'; 
+	src:url(font/Vladimir.ttf);
+}
+
+@font-face {
+    font-family: 'UkrainianBrushScript';
+    src: url('UkrainianBrushScript.ttf');
+    src: local('?'),
+        url("UkrainianBrushScript.woff") format("woff"),
+        url("UkrainianBrushScript.otf") format("opentype"),
+        url("UkrainianBrushScript.svg#grablau") format("svg");
+}
+
+
+@font-face {
+	font-family:MyFont;
+	src:url(font/MyFont.ttf); 
+}
+
+@font-face {
+	font-family:Adventure;
+	src:url(font/Adventure.ttf); 
+}
+
+@font-face {
+	font-family:Parangon230C; 
+	src:url(font/Parangon_230C.otf);
+}
+
+
+/*-----------------------------------------------------------------*/
+.style_element
+{
+	width: 31.8%;
+	height: 250px;
+	float:left;
+	padding: auto;
+	overflow:hidden;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 1.5%;
+	margin-bottom: 1.5%;
+	text-align: center;
+
+}
+.style_element a{
+	display: inline-block; 
+    text-align: center; 
+    height: 100%;
+}
+.style_element:hover  
+	.element_img a {
+			transform: scale(0.9);	
+			-webkit-transform: scale(0.9);	
+			-moz-transform: scale (0.9);
+			-o-transform: scale (0.9);			
+			transition: all 3.5s linear;
+}
+.element_img{
+
+	height:250px;
+	overflow:hidden;
+}
+
+.element_img a img {
+	position:relative;
+}
+/*-----------------------------------------------------------------*/
+
+.element_name {
+	margin-top: 20px;
+}
+.element_name  a{
+	text-decoration:none;
+ 	font-size: 18px;
+	color: #2a2a2a;
+	text-transform:uppercase;
+	font-family: Parangon230C, CaviarDreamsBold, Arial, Helvetica, sans-serif;
+	display: inline;
+}
+.element_name a:hover {
+	color: black;
+}
+/*-----------------------------------------------------------------*/
+
+.element_short a{
+	text-decoration:none;
+ 	text-transform: none;
+	font-size: 14px;
+	color: #2a2a2a;
+	font-family: Parangon230C, CaviarDreamsBold, Arial, Helvetica, sans-serif;
+	display: inline;
+	padding-top: 10px;
+
+}
+/*-----------------------------------------------------------------*/
+
+.slider {
+	height: 400px;
+	float:left;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 1.5%;
+	margin-bottom: 1.5%;
+	text-align: center;
+}
+
+/*---------------------------------------------------------*/
+.near_slider {
+	height: 400px;
+	float:left;
+	padding: auto;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 1.5%;
+	margin-bottom: 1.5%;
+
+}
+.near_slider a{
+	display: inline-block; /* Ссылка как блочный элемент */
+    text-align: center; /* Выравнивание по центру */
+
+}
+.near_slider:hover  
+	.element_img_s a {
+			transform: scale(0.9);				
+			-webkit-transform: scale(0.9);
+			-moz-transform: scale (0.9);
+			-o-transform: scale (0.9);						
+			transition: all 3.5s linear;
+}
+
+.element_img_s{
+	height: 112%;
+	width: 112%;
+	text-align: center;
+	overflow:hidden;
+}
+
+.element_img_s a img {
+	position: relative;
+	
+}
+
+/*---------------------------------------------------------*/
+.near_slider_long {
+	width: 65.2%;
+	height: 400px;
+	float:left;
+	padding: auto;
+	overflow: hidden;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 1.5%;
+	margin-bottom: 1.5%;
+
+	
+}
+.near_slider_long a{
+	display: inline-block; /* Ссылка как блочный элемент */
+    text-align: center; /* Выравнивание по центру */
+
+}
+.near_slider_long:hover  
+	.element_img_sl a {
+			transform: scale(0.9);	
+			-webkit-transform: scale(0.9);	
+			-moz-transform: scale (0.9);
+			-o-transform: scale (0.9);			
+			transition: all 3.5s linear;
+}
+.element_img_sl{
+	height: 112%;
+	width: 112%;
+	overflow:hidden;
+}
+
+.element_img_sl a img {
+	position: relative;
+	
+}
+/*---------------------------------------------------------*/
+
+
+.text_cat {
+	position: relative;
+	height: 100px;
+	width: 100%;
+	color: red;
+	
+	z-index:1;
+	margin:auto; 
+    display:flex;
+	
+}
+.text_cat a{
+	margin: auto;
+	text-transform:capitalize;
+	text-decoration:none;
+ 	font-size: 48px;
+	font-family: MyFont, Adventure, Parangon230C, CaviarDreamsBold, Arial, Helvetica, cursive ;
+	font-weight: 100;
+	line-height:0.8;
+	color: #f0efef;
+
+}
+.text_cat:hover{
+	background-color: #2a2a2a;
+	opacity: 0.5;
+	}
+.text_cat a:hover{
+	color: white;
+	}
+/*-----------------------------------------------------------------*/
+
+
+.textov {
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	text-decoration: none;
+	border: solid 1px red;
+}
+
+.head
+{
+	background-color: black;
+	height:34px;
+	color: white;
+	width: 100%;
+	float: left;
+}
+.bucket
+{
+	position: relative;
+	float: right;
+	padding-right: 40px;
+	margin-top: 7px;
+	
+}
+
+.lang {
+	margin-top: 9px;
+	margin-left: 7px;
+	float: left;
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+	
+.lang2 {
+	margin-top: 7px;
+	margin-right: 7px;
+	float: right;
+}
+
+#topmenu {
+	position: relative;
+	overflow:hidden;
+	height:30px;
+	margin-bottom:50px;
+	
+    
+}
+#topmenu ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	position: relative;
+	left:50%;
+	float:left;
+	font:18px Parangon230C, BravoSC,'Avrora Deco','AA Haymaker','Academia Libera',CaviarDreamsBold, Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	height:10px
+
+}
+#topmenu ul li {
+	position:relative;
+	left:-50%;
+	float:left;
+	margin:0 5px;
+	height:30px
+}
+#topmenu ul li a {
+	display:block;
+	text-decoration:none;
+	padding:4px 10px;
+	color: black;
+}
+
+.logo {
+ 	font-family: 'Vladimir Script', MyFont, Adventure, UkrainianBrushScript, Arial, Helvetica, sans-serif;
+	font-size: 72px;
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	
+}
+
+#menu_b{
+	position: relative;
+	overflow:hidden;
+	width: 100%;
+	margin-bottom:20px;
+
+}
+#menu_b ul {
+	list-style-type: none; 
+	margin-top:20px;
+	padding: 0px;
+}
+
+#menu_b ul li a {
+	display:block;
+	text-transform: capitalize;
+	text-decoration:none;
+ 	font-size: 18px;
+	color: #2a2a2a;
+	padding:6px 2px;
+	font-family: Parangon230C, CaviarDreamsBold, Arial, Helvetica, sans-serif;
+}
+
+#menu_b ul li a:hover {
+	color: black;
+}
+
+.menu_a {
+	position: relative;
+	overflow:hidden;
+	padding-left:10px;
+	margin-right: 0px;
+	text-align:left;	
+}
+
+.menu_a  a{
+	display:block;
+	text-transform: uppercase;
+	text-decoration:none;
+	font-size: 18px;
+ 	color: black;
+	padding:14px 0px;
+	font-family:Parangon230C, CaviarDreamsBold, Arial, Helvetica, sans-serif;
+}
+.block_center {
+	float:left;
+	width: 100%;
+	min-height: 100%;
+}
+.block_menu {
+	float:left;
+	width: 22%;
+}
+.block_active {
+	float:left;
+	width: 76.5%;
+	
+}
+
+.block_active_inside{
+	float: left;
+	width: 102%;
+
+}
+
+.relative_element{
+	float:left;
+	width: 100%;
+	margin-top: 18px;
+	text-align: center;
+	font-family:'Trebuchet MS', Parangon230C, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	
+}
+
+
+.path{
+	border-bottom:2px groove #e3e3e3;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	position: relative;
+	width: 100%;
+}
+.block_descriotion {
+	text-decoration: none;
+	border-bottom:2px groove #e3e3e3;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+	font:16px 'Trebuchet MS', Parangon230C, BravoSC,'Avrora Deco','AA Haymaker','Academia Libera',CaviarDreamsBold, Arial, Helvetica, sans-serif;
+	
+	
+	
+}
+.path a{
+	color:#2a2a2a;
+	text-decoration: none;
+	margin:0;
+	padding:0;
+	position: relative;
+	font:12px Parangon230C, BravoSC,'Avrora Deco','AA Haymaker','Academia Libera',CaviarDreamsBold, Arial, Helvetica, sans-serif;
+}
+
+.path_text{
+	position: relative;
+	float: left;
+}
+.code{
+	text-align: right;
+	color: gray;
+	font:12px Parangon230C, BravoSC,'Avrora Deco','AA Haymaker','Academia Libera',CaviarDreamsBold, Arial, Helvetica, sans-serif;
+}
+
+.top_name_element {
+	border-bottom:2px groove #e3e3e3;
+	height: 28px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.top_name_element a{	
+	color: black;
+	text-decoration:none;
+	font-family: Adventure, Parangon230C, CaviarDreamsBold, Arial, Helvetica, cursive ;
+	font-size: 30px;
+	float: left;
+	position: relative;
+	margin-top: -5px;
+
+}
+.top_name_element h1{font-size: 30px;font-weight:normal;}
+
+.top_price_element{
+	position: relative;
+	text-align: right;
+	padding-right: 10px;
+	color: black;
+	text-decoration:none;
+	font-family: Parangon230C, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	top:-15px;
+	margin-left: 70%;
+}
+
+.top_price_element_count{
+	position: relative;
+	color: #960d17;
+	font-family: 'Vladimir Script', MyFont, Adventure, UkrainianBrushScript, Arial, Helvetica, sans-serif;
+	font-size: 34px;
+	top: 2px;
+}
+
+.description_element{
+	font-family: 'Trebuchet MS', Parangon230C, Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+	position:relative;
+	
+}
+
+hr {
+padding-bottom: 1px;
+background-color: #9b9b9b;
+border-bottom:1px solid #F4F4F4;
+margin: 0 auto;
+}
+.sort{
+	position: relative;
+	display: inline-block;
+	text-align: right;
+	float: right;
+	margin-top: -5px;
+
+	
+}
+
+/*----------------------------------------------------PAGE ARTICLES---------------------------------------------*/
+
+.article{
+	padding-bottom: 5px;
+	padding-left: 1.3%;
+	overflow:hidden;
+}
+.article a img{
+	height: 100%;
+}
+.article a {
+text-decoration: none;
+color: black;
+}
+.article_image{
+	overflow: hidden;
+	width: 20%;
+	height: 20%;
+	float: left;
+
+}
+.article_text{
+	position: relative;
+	width: 78%;
+	height: 16%;
+	padding-left: 1.3%;
+	display: inline-block;
+	overflow: hidden;
+}
+.article_name{
+	font-family: 'Trebuchet MS', Parangon230C, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	
+}
+.article_short{
+	color:#2a2a2a;
+	text-decoration: none;
+	font:14px Parangon230C, BravoSC,'Avrora Deco','AA Haymaker','Academia Libera',CaviarDreamsBold, Arial, Helvetica, sans-serif;
+}
+.article_more a{
+	font-family: 'Trebuchet MS', Parangon230C, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding-left: 20px;
+	color: #a9ff95;
+}
+.article_more a:hover {
+	color: green;
+}
+
+/*----------------------------------------------------Button Order---------------------------------------------*/
+.btn_Order{
+	color: #777;
+	font-family:'Trebuchet MS', Parangon230C, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	cursor: pointer;
+	background: #F9F9F9;
+	border: 1px solid #E4E4E4;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 12px;
+	margin-top: -10px;
+	position: relative;
+	line-height: 30px;
+}
+.btn_order:hover{
+	color: black;
+	background: #ebffdf;
+	border: 1px solid #a9ff95;
+}
+.btn_Order a{
+	text-decoration:none; 
+	color: black;
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+/*----------------------------------------------------TABS---------------------------------------------*/
+.section {
+	width: 100%;
+	background: #EFEFEF;
+
+}
+.section h1 {font-ize: 21px; font-weight: normal; margin: 0 0 30px;}
+.section p {padding: 7px 0;}
+
+
+
+ul.tabs {
+	height: 28px;
+	line-height: 25px;
+	list-style: none;
+	border-bottom: 1px solid #DDD;
+	background: #FFF;
+
+}
+.tabs li {
+	float: left;
+	display: inline;
+	margin: 0 1px -1px 0;
+	padding: 0 13px 1px;
+	color: #777;
+	cursor: pointer;
+	background: #F9F9F9;
+	border: 1px solid #E4E4E4;
+	border-bottom: 1px solid #F9F9F9;
+	position: relative;
+}
+.tabs li:hover,
+.vertical .tabs li:hover {
+	color: black;
+	padding: 0 13px;
+	background: #ebffdf;
+	border: 1px solid #a9ff95;
+}
+.tabs li.current {
+	color: #444;
+	background: #EFEFEF;
+	padding: 0 13px 2px;
+	border: 1px solid #D4D4D4;
+	border-bottom: 1px solid #EFEFEF;
+}
+.box {
+	display: none;
+	float: left;
+	border: 1px solid #D4D4D4;
+	border-width: 0 1px 1px;
+	background: #EFEFEF;
+	padding-top: 12px;
+	
+	width: 100%;
+}
+.box.visible {
+	display: block;
+}
+
+#text_descript {
+	
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 12px;
+	font-weight: normal;
+	font-family:Parangon230C, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+/*#text_descript strong{font-weight: normal;}
+/*#text_descript b{font-weight: normal;}
+
+/*----------------------------------------------------COMMENTS---------------------------------------------*/
+.block_main_comm{
+	position: relative;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px;
+
+}
+.block_add_comm{
+	position: relative;
+	float: left;
+	width: 35%;
+	height: 200px;
+	padding-left: 12px;
+}
+
+.block_add_comm input[type=submit], .block_add_comm input[type=reset] {
+	color: #777;
+	cursor: pointer;
+	background: #F9F9F9;
+	border: 1px solid #E4E4E4;
+	height: 30px;
+	width: 23.5%;
+	position: relative;
+	margin-top: 12px; 
+	
+}
+.block_add_comm input[type=submit]:hover, .block_add_comm input[type=reset]:hover {
+	color: black;
+	background: #ebffdf;
+	border: 1px solid #a9ff95;
+
+}
+
+
+.block_comm{
+	position: relative;
+	width: 60%;
+	padding-left: 12px;
+	padding-right: 12px;
+	border-right: 1px solid #D4D4D4;
+	float: left;
+	
+}
+.name_author{
+	color:#69a15c;
+	font-family: 'Trebuchet MS', Parangon230C, Arial, Helvetica, sans-serif;
+	
+}
+.date_comm{
+	color:grey;
+	font-family: 'Trebuchet MS', Parangon230C, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	text-align: right;
+	margin-left: 60%;
+	padding-top: 6px;
+	padding-right: 2px;
+	float: right;
+	
+	
+}
+.wrote_comm{
+	position: relative;
+	border: 1px solid #DDD;
+	background: #FFF;
+	font-family: Parangon230C, Arial, Helvetica, sans-serif;
+	margin-bottom: 10px;
+	padding-left: 10px;
+	
+}
+/*----------------------------------------------------MAIL-----------------------------------------------*/
+.block_mail{
+	position: relative;
+	float: left;
+	width: 75%;
+	height: 200px;
+	margin-left: 10px;
+}
+.block_mail input[type=submit], .block_mail input[type=button]{
+	color: #777;
+	cursor: pointer;
+	background: #F9F9F9;
+	border: 1px solid #E4E4E4;
+	height: 30px;
+	width: 19%;
+	position: relative;
+	margin-top: 12px; 
+	margin-right: 1.25%;
+}
+.block_mail input[type=reset] {
+	color: #777;
+	cursor: pointer;
+	background: #F9F9F9;
+	border: 1px solid #E4E4E4;
+	height: 30px;
+	width: 19%;
+	position: relative;
+	margin-top: 12px; 
+}
+.block_mail input[type=text]{
+	margin-top: 12px; 
+	margin-right: 1.25%; 
+	width: 19%;
+	height: 30px;
+	
+}
+
+.block_mail input[type=submit]:hover, .block_mail input[type=reset]:hover, .block_mail input[type=button]:hover {
+	color: black;
+	background: #ebffdf;
+	border: 1px solid #a9ff95;
+
+}
+
+/*----------------------------------------------------SEARCH---------------------------------------------*/
+
+
+
+
+
+.block_search form{
+        max-width: 250px;
+		width:100%;
+}
+.search { 
+        margin-left: 10px;
+		margin-bottom: 30px;
+        height: 30px;
+		width: 75%;
+		border: solid 1px;
+}
+
+ 
+.block_search input[type=submit], .block_search input[type=submit]:hover {
+        position:relative; 
+        height: 30px;
+		width: 30px;
+		background: url(search.png) no-repeat;
+		left:-30px;
+        border:1px solid #d0d0d0;
+        border-left: none;
+		color:#bcbcbc;
+        cursor: pointer;
+		
+		
+}
+.block_search input[type=text]{
+        border:1px solid #d0d0d0;
+        background-color:#fcfcfc;
+		padding-left: 10px;
+}
+/*--------------------------------------Authorizate----------------------------------------------------*/
+.Authorizate{
+	text-align: center;	
+	height: 200px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+#toTop {
+	width:100px;
+    border:1px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:5px;
+    position:fixed;
+    bottom:50px; 
+    left:10px;
+    cursor:pointer;
+    display:none;
+    color:#333;
+    font-family:verdana;
+    font-size:11px;
+}
+#ToTop:hover{
+	background: #ebffdf;
+	border: 1px solid #a9ff95;
+}
+/*----------------------------------------------------PAGE BUCKET ORDER---------------------------------------------*/
+
+.item_bucket{
+	padding-bottom: 5px;
+	padding-left: 1.3%;
+	
+	
+}
+.item_bucket a img{
+	height: 100%;
+	
+}
+.article a {
+text-decoration: none;
+color: black;
+}
+.item_bucket_image{
+	overflow: hidden;
+	width: 15%;
+	height: 15%;
+	float: left;
+	
+
+}
+.item_bucket_text{
+	position: relative;
+	width: 83%;
+	height: 15%;
+	padding-left: 1.3%;
+	display: inline-block;
+
+}
+.item_bucket_name{
+	font-family: Parangon230C, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	margin-top: 5px;
+
+}
+.bucket_price_element{
+	position: relative;
+	color: black;
+	text-decoration:none;
+	font-family: Parangon230C, Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	
+}
+.item_bucket_price{
+	color: #960d17;
+	font-family: 'Vladimir Script', MyFont, Adventure, UkrainianBrushScript, Arial, Helvetica, sans-serif;
+	font-size: 34px;
+	display: inline-block;
+}
+.item_bucket_count{
+	color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+	
+	
+}
+.item_bucket_more a{
+	font-family: Parangon230C, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding-left: 20px;
+	color: #a9ff95;
+}
+.item_bucket_more a:hover {
+	color: green;
+}
+.block_countElem{
+	display: inline-block;
+	margin-left: 100px;
+	
+	color: green;
+}
+.countElem{
+	position: relative;
+	height: 30px;
+	width: 45px;
+	font-size: 18px;
+	color: green;
+	border: none;
+}
+.countElem::-webkit-inner-spin-button { 
+  opacity: 1;
+}
+
+/*---------------------------------------------------------------------*/
+.btn_DelFromBucket{
+	color: #777;
+	font-family:'Trebuchet MS', Parangon230C, Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 18px;
+	cursor: pointer;
+	background: #F9F9F9;
+	border: 1px solid #E4E4E4;
+	height: 30px;
+	width: 100px;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 5px;
+	position: relative;
+	line-height: 30px;
+	float: right;	
+}
+.btn_DelFromBucket:hover {
+	color: black;
+	background: #ebffdf;
+	border: 1px solid #a9ff95;
+}
+.btn_DelFromBucket a{
+	text-decoration:none; 
+	color: black;
+	height: 100%;
+	width: 100%;
+	
+}
+/*
+==============================================
+fadeIn
+==============================================
+*/
+
+.fadeIn{
+	z-index:1000;
+	animation-name: fadeIn;
+	-webkit-animation-name: fadeIn;	
+
+	animation-duration: 0.5s;	
+	-webkit-animation-duration: 0.5s;
+
+	animation-timing-function: ease-in-out;	
+	-webkit-animation-timing-function: ease-in-out;		
+
+	visibility: visible !important;	
+	
+}
+
+@keyframes fadeIn {
+	0% {
+		transform: scale(0);
+		opacity: 0.0;		
+	}	
+	100% {
+		transform: scale(1);
+		opacity: 1;	
+	}		
+}
+
+@-webkit-keyframes fadeIn {
+	0% {
+		-webkit-transform: scale(0);
+		opacity: 0.0;		
+	}
+	100% {
+		-webkit-transform: scale(1);
+		opacity: 1;	
+	}		
+}
+#message
+{
+	position:absolute;
+    left:50%;
+    margin-left:-150px;
+	margin-top:-75px;
+	width: 300px;
+	height: 100px;
+	background: white;
+	top:50%;
+	border:2px solid #eae8e8;
+	text-align: center;
+	float: center;
+	line-height: 100px;
+	font-size: 18px;
+	color: #38b54d;
+	
+}
+.fadeOut{
+	visibility: hidden;
+}
+/*========================================================*Style CSS for Admin ===============================================================*/
+.main{
+	position:relative;
+	
+}
+/*--------------------------------------------------------------TABS--------------------------------------------------------------------------*/
+.mainsection{
+	width: 100%;
+	background: #EFEFEF;
+}
+.mainsection h1 {font-ize: 21px; font-weight: normal; margin: 0 0 30px;}
+.mainsection p {padding: 7px 0;}
+
+
+
+ul.maintabs {
+	position: relative;
+	height: 50px;
+	line-height: 50px;
+	list-style: none;
+	/*border-bottom: 1px solid #DDD;*/
+	background: #FFF;
+	text-align: center;
+
+}
+.maintabs li {
+	width: 11%;
+	float: left;
+	display: inline;
+	margin: 0 0.2% -1px 0;
+	padding: 0 13px 1px;
+	color: #777;
+	cursor: pointer;
+	background: #F9F9F9;
+	border: 1px solid #E4E4E4;
+	/*border-bottom: 1px solid #F9F9F9;*/
+	position: relative;
+}
+.maintabs li:hover,
+.vertical .maintabs li:hover {
+	color: black;
+	padding: 0 13px;
+	background: #ebffdf;
+	border: 1px solid #a9ff95;
+}
+.maintabs li.current {
+	color: #444;
+	background: #EFEFEF;
+	padding: 0 13px 2px;
+	border: 1px solid #D4D4D4;
+	border-bottom: 1px solid #EFEFEF;
+	height: 52px;
+}
+.mainbox {
+	display: none;
+	float: left;
+	border-top: 1px solid #D4D4D4;: 1px solid #D4D4D4;
+	border-bottom: 1px solid #D4D4D4;: 1px solid #D4D4D4;
+	background: #EFEFEF;
+	padding-top: 12px;
+	width: 100%;
+	
+}
+.mainbox.visible {
+	display: block;
+}
